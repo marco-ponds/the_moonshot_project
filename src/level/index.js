@@ -62,7 +62,8 @@ export default class Intro extends Level {
             //position: { x: 0, y: 4, z: 1 },
             mass: 1,
             height: 1,
-            target: player
+            target: player,
+            physicsEnabled: true
         });
 
         //Controls.setOrbitControl();
